@@ -1,0 +1,15 @@
+h3{
+font-size: 25px !important;
+}
+.btn-success:hover{
+ background-color: rgb(100, 125, 237);
+}
+canvas{
+    animation-name: funny;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes funny{
+    from{box-shadow: 1px 1px 38px fuchsia;}
+     to{box-shadow: 1px 1px 138px blueviolet;}
+}
